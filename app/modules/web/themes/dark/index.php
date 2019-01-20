@@ -24,8 +24,8 @@
  */
 
 return [
-    'name' => 'Material Blue',
-    'creator' => 'nuxsmin',
+    'name' => 'Dark',
+    'creator' => 'vmario89',
     'version' => '3.0',
     'targetversion' => '3.0.0',
     'js' => [
