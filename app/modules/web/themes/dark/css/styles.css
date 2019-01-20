@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   text-align: left;
   background-color: #0A0A0A;
-  color: #555;
+  color: #AAA;
   font-size: 12px;
   font-weight: normal;
   box-sizing: border-box;
@@ -942,7 +942,7 @@ h5.datagrid-header-title {
   padding: 10px;
   margin: 15px auto;
   border: 1px solid #c9c9c9;
-  color: #555;
+  color: #AAA;
   font-weight: bold; }
 
 .dialog-text, .dialog-user-text, .dialog-pass-text {
@@ -1087,13 +1087,13 @@ fieldset.warning {
         color: #ffca28;
         background-color: #0008e1;
         border: 1px solid #ffca28;
-        color: #555; }
+        color: #AAA; }
       #actions ul.errors > li.msg-ok {
         color: #26a69a;
         background-color: #e0f2f1;
         border: 1px solid #26a69a; }
       #actions ul.errors > li > p.hint {
-        color: #555;
+        color: #AAA;
         font-size: 12px; }
         #actions ul.errors > li > p.hint i {
           margin-right: .5em; }

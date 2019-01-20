@@ -1060,7 +1060,7 @@ h5.datagrid-header-title {
     padding: 10px;
     margin: 15px auto;
     border: 1px solid #c9c9c9;
-    color: #555;
+    color: #AAA;
     font-weight: bold;
   }
 }
@@ -1250,7 +1250,7 @@ fieldset.warning {
 
       &.msg-warning {
         @include color-amber();
-        color: #555;
+        color: #AAA;
       }
 
       &.msg-ok {
@@ -1258,7 +1258,7 @@ fieldset.warning {
       }
 
       > p.hint {
-        color: #555;
+        color: #AAA;
         font-size: 12px;
 
         i {
