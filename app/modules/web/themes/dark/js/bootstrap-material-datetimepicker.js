@@ -316,7 +316,7 @@
                 var y = -(162 * (Math.cos(-Math.PI * 2 * (i / 12))));
 
                 var fill = ((this.currentDate.format(hFormat) == i) ? "#8BC34A" : 'transparent');
-                var color = ((this.currentDate.format(hFormat) == i) ? "#fff" : '#000');
+                var color = ((this.currentDate.format(hFormat) == i) ? "#000" : '#000');
 
                 var svgHourCircle = this.createSVGElement("circle", {
                     'id': 'h-' + i,
@@ -362,7 +362,7 @@
                     var y = -(110 * (Math.cos(-Math.PI * 2 * (i / 12))));
 
                     var fill = ((this.currentDate.format(hFormat) == (i + 12)) ? "#8BC34A" : 'transparent');
-                    var color = ((this.currentDate.format(hFormat) == (i + 12)) ? "#fff" : '#000');
+                    var color = ((this.currentDate.format(hFormat) == (i + 12)) ? "#000" : '#000');
 
                     var svgHourCircle = this.createSVGElement("circle", {
                         'id': 'h-' + (i + 12),
@@ -460,7 +460,7 @@
                     var x = -(162 * (Math.sin(-Math.PI * 2 * (i / 60))));
                     var y = -(162 * (Math.cos(-Math.PI * 2 * (i / 60))));
 
-                    var color = ((this.currentDate.format("m") == i) ? "#fff" : '#000');
+                    var color = ((this.currentDate.format("m") == i) ? "#000" : '#000');
 
                     var svgMinuteText = this.createSVGElement("text", {
                         'id': 'tm-' + i,
@@ -981,7 +981,7 @@
                 }
 
                 $(parent.find('#h-' + value)).attr('fill', '#8BC34A');
-                $(parent.find('#th-' + value)).attr('fill', '#fff');
+                $(parent.find('#th-' + value)).attr('fill', '#000');
 
                 this.currentDate.hour(parseInt(value));
 
@@ -1012,7 +1012,7 @@
                 }
 
                 $(parent.find('#m-' + value)).attr('fill', '#8BC34A');
-                $(parent.find('#tm-' + value)).attr('fill', '#fff');
+                $(parent.find('#tm-' + value)).attr('fill', '#000');
 
                 this.currentDate.minute(parseInt(value));
                 this.showTime(this.currentDate);
