@@ -329,7 +329,7 @@ body.userpassreset {
   padding: .5em;
   font-size: 11px;
   color: #999;
-  background-color: #fcfcfc; }
+  background-color: #030303; }
   #content .pager img {
     margin-left: 5px;
     vertical-align: middle; }
@@ -508,7 +508,7 @@ body.userpassreset {
   width: 100%;
   margin: 0 0 10px 0;
   padding: 0;
-  background-color: #fcfcfc; }
+  background-color: #030303; }
 #content .data-rows li {
   float: left;
   display: block;
@@ -525,7 +525,7 @@ body.userpassreset {
     min-height: 2em;
     padding: 1em 0;
     text-align: left;
-    background-color: #fcfcfc;
+    background-color: #030303;
     width: 15em; }
   #content .data-rows li.cell-nodata img, #content .data-rows li.cell-actions img {
     width: 24px;
@@ -546,7 +546,7 @@ body.userpassreset {
 #content #resEventLog .cell-description {
   width: 60%; }
 #content #searchbox {
-  background-color: #fcfcfc;
+  background-color: #030303;
   vertical-align: middle;
   position: relative;
   height: auto;
